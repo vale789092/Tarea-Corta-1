@@ -8,6 +8,7 @@ class Dado:
     #pero lo necesitamos para poder crear los números aleatorios
     #normalmente deberíamos esconderlo para que no sea accesible (encapsulamiento)
     rnd=Random(42)
+    
 
     def __init__(self, numCaras):
         self.caras=numCaras
